@@ -23,15 +23,17 @@ or get the image with following command (don't run yet)
 2. Deploy following peers
 
   ```
-  ./deploy-following-node.sh <a peer's client url> <ip of THIS peer's host>
+  ./deploy-following-node.sh <an existing peer's client url> <ip of THIS peer's host>
   ```
   
-  A peer's client url has the format *ip:port*. Upon a successful running, this peer's client url will be shown at the end. You can repeat step 2 to deploy as many peers as possible in the cluster.
+  Client url has the format *ip:port*. Upon a successful running, this peer's client url will be shown at the end.
+  
+  Repeat step 2 to add as many peers as possible to the cluster.
 
 3. Test the cluster
 
   ```
-  etcdctl --endpoint=<client urls> member list
+  etcdctl --endpoint=<client url> member list
   ```
   
 That's it!
