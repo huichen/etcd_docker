@@ -1,6 +1,6 @@
 ## Build etcd docker image
 
-./build.sh
+    ./build.sh
 
 or get the image with following command (don't run yet)
 
@@ -24,5 +24,5 @@ Upon a successful running, this peer's client url will be shown at the end. You 
 
 3. Test the cluster
 
-etcdctl --endpoint=<client urls> member list
+    etcdctl --endpoint=<client urls> member list
 
