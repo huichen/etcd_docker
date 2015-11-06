@@ -28,7 +28,7 @@ or get the image from docker hub (don't docker run yet)
   
   Client url has the format *ip:port*. Upon a successful running, this peer's client url will be shown at the end.
   
-  Repeat step 2 to add as many peers as possible to the cluster.
+  Repeat step 2 to add as many peers as possible to the cluster. Prefer to have at least three peers.
 
 3. Test the cluster
 
