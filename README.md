@@ -2,7 +2,7 @@
 
     ./build.sh
 
-or get the image with following command (don't run yet)
+or get the image with following command (don't docker run yet)
 
     docker pull unmerged/etcd
 
